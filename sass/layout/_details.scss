@@ -1,0 +1,37 @@
+.details{
+    background-color: $dark-color;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    .text{
+        color: $white-color;
+        span{
+            color: $secondry-color;
+        }
+        p{
+                color: $fait-white;
+        }
+    }
+
+    button{
+        color: $white-color;
+        background-color: $secondry-color;
+        border: 0;
+        padding: 18px 25px;
+        margin-right: 10px;
+        &:hover{
+            background-color: #0398e2;
+        }
+    }
+    span{
+        color: $fait-white ;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            color: rgb(255, 236, 236);
+            text-decoration: underline;
+        }
+    }
+}

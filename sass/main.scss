@@ -1,0 +1,25 @@
+////////abstract/////////
+@import "abstract/variables";
+@import "abstract/mixins";
+////base////////
+@import "base/reset";
+/////layout/////////
+@import "layout/landing.scss";
+@import "layout/landing2.scss";
+@import "layout/details.scss";
+@import "layout/statistics.scss";
+@import "layout/themes.scss";
+@import "layout/suggest.scss";
+@import "layout/clints.scss";
+@import "layout/founder.scss";
+// @import "layout/department";
+////////components///////
+@import "components/nav";
+@import "components/buttons";
+@import "components/card";
+@import "components/navItem";
+@import "components/badge";
+@import "components/contacts";
+
+///////////////
+

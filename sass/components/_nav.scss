@@ -1,0 +1,24 @@
+nav{
+    position: sticky;
+    top: 0;
+    background-color: $dark-color;
+    .nav--container{
+        display: flex;
+        justify-content: space-between;
+        
+        .items ul{
+            display: flex;
+            position: relative;
+            top: 15px;
+        }
+        ul .btn{
+            left: 70px;
+            top: -8px;
+            position: relative;
+        }
+        ul li{
+    list-style-type: none;
+
+        }
+    } 
+}

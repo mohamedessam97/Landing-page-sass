@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    // width: 360px;
+    // margin-left: 30px;
+    &__img{
+        margin-right: 39px;
+        width: 380px;
+        margin-bottom: 20px;
+    }
+    &__text{
+        h3{
+            color: $dark-color;
+            margin-bottom: 5px;
+        }
+        span{
+            color: red;
+            font-weight: 900;
+            font-size: 20px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        p{
+            color: gray;
+            font-size: 14px;
+            line-height: 1.5;
+            word-spacing: 2px;
+            width: 359px;
+        }
+    }
+}
